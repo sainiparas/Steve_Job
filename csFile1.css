@@ -1,0 +1,49 @@
+#div1{
+	background-color:black;
+    
+}
+
+
+
+
+#div1 nav a{
+	    display:block;
+	     
+	     height:35px;
+	     line-height:35px;
+	     font-family:cambria;
+	     text-decoration:none;
+        }
+
+
+#div1 nav a:hover{
+	display:block;
+	background-color:white;
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#sp1{
+	font-size:18px;
+	font-family:cambria;
+}
+
+#table1{
+	height:35px;
+	width:420px;
+}
+
+
+.p1{
+	font-family:cambria;
+	background-color:lightgray;
+	font-size:18px;
+	padding:20px;
+}
+
+
+#table2{
+
+
+}
