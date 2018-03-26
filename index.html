@@ -19,14 +19,27 @@
     
     <div class="container-fluid">
         <div class="row" id="div1">
-               <nav>
-                   <span class="col-lg-1 hidden-sm hidden-xs hidden-md"></span>
-                   <a href="index.html" class="col-lg-1 text-center">Steve Jobs</a>
-                   <a href="biography.html" class="col-lg-1 text-center">Biography</a>
-                   <a href="javascript:void(0)" onclick="pict()" class="col-lg-1 text-center">Pictures</a>
-                   <a href="javascript:void(0)" onclick="vid()" class="col-lg-1 text-center">Videos</a>
-                   <a href="book.html" class="col-lg-1 text-center">The Book</a>
-
+               <nav class="navbar navbar-inverse">
+                   <div class="container-fluid">
+                        <div="navbar-header">
+                             <button class="navbar-toggle" data-toggle="collapse" data-target="#abc">
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                             </button>
+                        </div>
+                        
+                        <div class="navbar-collapse" id="abc">
+                             <ul class="nav navbar-nav">
+                                  <li class="active"> <a href="index.html">Steve Jobs</a></li>
+                                  <li> <a href="biography.html">Biography</a></li>
+                                  <li> <a href="javascript:void(0)" onclick="pict()">Pictures</a></li>
+                                  <li> <a href="javascript:void(0)" onclick="vid()">Videos</a></li>
+                                  <li>    <a href="book.html">The Book</a></li>
+                             </ul>
+                        </div>        
+                  
+                  </div>
                </nav>
         </div>
 
